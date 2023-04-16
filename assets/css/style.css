@@ -1,31 +1,72 @@
 /* I like the combination of fonts. needs something lively*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* I chose coor on coloors website maybe need to adjsut later for better contrast*/
 body {
-    font-family: Josefin Sans, sans-serif;
-    font-weight: 300;
-    color: #7d8c85;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 300;
+  color: #7d8c85;
 }
 
 /* headings and logo*/
 
 h1, h2 {
-    font-family: Dancing Script, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #363230;
-
+  font-family: Dancing Script, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #363230;
 }
 
 #logo {
-    float: left;
-    font-size: 300%;
-
+  float: left;
+  font-size: 280%;
 }
+
+/*navigation links*/
+
+#menu {
+    font-size: 90%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #7d8c85;
+}
+
+.active {
+    border-bottom: 1px solid #7d8c85;
+}
+
+
+/*column {
+    float: left;
+    width: 33.33%;
+}
+just trying to add column
+.row::after {
+    content: ;
+    display: table;
+    clear: both;
+}
+*/
