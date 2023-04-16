@@ -25,7 +25,7 @@ h1, h2 {
 
 #logo {
   float: left;
-  font-size: 280%;
+  font-size: 300%;
 }
 
 /*navigation links*/
@@ -58,6 +58,13 @@ h1, h2 {
     border-bottom: 1px solid #7d8c85;
 }
 
+/*hero -image*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-imagewebp.webp") no-repeat;
+}
 
 /*column {
     float: left;
