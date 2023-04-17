@@ -12,7 +12,7 @@ body {
   font-family: Josefin Sans, sans-serif;
   font-weight: 300;
   color: #7d8c85;
-}
+  }
 
 /* headings and logo*/
 
@@ -58,22 +58,20 @@ h1, h2 {
     border-bottom: 1px solid #7d8c85;
 }
 
-/*hero -image*/
+/*hero-image*/
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url("../images/hero-imagewebp.webp") no-repeat;
+    background: url("../images/hero-imagewebp.webp") no-repeat center center;
+    background-size: cover;
 }
 
-/*column {
-    float: left;
+.container {
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+}
+
+ .column {
     width: 33.33%;
 }
-just trying to add column
-.row::after {
-    content: ;
-    display: table;
-    clear: both;
-}
-*/
