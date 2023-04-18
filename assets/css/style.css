@@ -43,6 +43,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 20px;
+    height: 10rem;
 }
 
 #menu a {
@@ -60,20 +61,16 @@ h1, h2 {
 
 /*hero -image*/
 
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-imagewebp.webp") no-repeat;
-}
+    background-size: contain;
+}  
 
-/*column {
-    float: left;
-    width: 33.33%;
-}
-just trying to add column
-.row::after {
-    content: ;
-    display: table;
-    clear: both;
-}
-*/
+.class {
+    border-radius: 50%
+
+
+} 
