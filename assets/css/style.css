@@ -47,7 +47,7 @@ font-size: 18px;
 }
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url("../images/hero-imagewebp.webp") no-repeat;
     background-size: contain;
