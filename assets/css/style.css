@@ -1,11 +1,13 @@
 /* I like the combination of fonts. needs something lively*/
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
   border: none;
 }
+
 
 /* I chose coor on coloors website maybe need to adjsut later for better contrast*/
 body {
@@ -25,7 +27,7 @@ h1, h2 {
 
 #logo {
   float: left;
-  font-size: 300%;
+  font-size: 280%;
 }
 
 /*navigation links*/
@@ -59,8 +61,8 @@ h1, h2 {
     border-bottom: 1px solid #7d8c85;
 }
 
-/*hero -image*/
 
+/*hero -image*/
 
 #hero-image {
     height: 600px;
@@ -69,8 +71,15 @@ h1, h2 {
     background-size: contain;
 }  
 
-.class {
-    border-radius: 50%
+.latin-dances {
+    background-color: white;
+    color:#363230;
+    padding: 1rem;
+    text-align: justify;
+}
 
-
-} 
+.columns {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr
+}
