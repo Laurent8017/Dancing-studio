@@ -1,51 +1,40 @@
-/* I like the combination of fonts. needs something lively*/
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&display=swap");
 
-
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  
 
-
-/* I chose coor on coloors website maybe need to adjsut later for better contrast*/
-body {
-  font-family: Josefin Sans, sans-serif;
-  font-weight: 300;
-  color: #7d8c85;
-}
-
-/* headings and logo*/
-
-h1, h2 {
-  font-family: Dancing Script, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #363230;
+header {
+    display: grid;
+    text-align: left;
+    font-family: dancing script;
+    background-color: RGB(147, 20, 77);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
 }
 
 #logo {
-  float: left;
-  font-size: 280%;
-}
-
-/*navigation links*/
-
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}   
+   
 #menu {
     font-size: 90%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
-    line-height: 75px;
-}
-
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    height: 10rem;
+float: right;
+list-style-type: none;
+margin-right: 20px;
+height: 10rem;
+font-size: 18px;
 }
 
 #menu a {
@@ -57,29 +46,14 @@ h1, h2 {
     border-bottom: 1px solid #7d8c85;
 }
 
-.active {
-    border-bottom: 1px solid #7d8c85;
-}
-
-
-/*hero -image*/
-
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-imagewebp.webp") no-repeat;
     background-size: contain;
-}  
-
-.latin-dances {
-    background-color: white;
-    color:#363230;
-    padding: 1rem;
-    text-align: justify;
 }
 
-.columns {
-    display: grid;
-    gap: 1em;
-    grid-template-columns: 1fr 1fr 1fr
+.media {
+    display: inline;
+
 }
