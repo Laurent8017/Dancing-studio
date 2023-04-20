@@ -4,56 +4,78 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
+}
+
+  body { 
+    font-family: Josephin Sans, sans-serif;
+    font-weight: 300;
+    color:#687E8D;
   }
   
+  /*headings and logo*/
 
-header {
-    display: grid;
-    text-align: left;
-    font-family: dancing script;
-    background-color: RGB(147, 20, 77);
+  h1, h2 {
+    font-family: Dancing script, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: white;
-}
+    letter-spacing: 2px;
+    color: #3B4754;
+  }
 
-#logo {
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-}   
-   
-#menu {
-    font-size: 90%;
-    letter-spacing: 4px;
-}
+  #logo {
+     float: left;
+     font-size: 500%;
+     margin-left:20px;
+  }
 
-#menu li {
-float: right;
-list-style-type: none;
-margin-right: 20px;
-height: 10rem;
-font-size: 18px;
-}
+  /*navigation links*/
 
-#menu a {
+  #menu {
+    font-size: 200%;
+    letter-spacing: 2px;
+  }
+
+  #menu, #logo {
+    line-height: 75px;
+
+  }
+
+  #menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+
+  #menu a {
     text-decoration: none;
     color: inherit;
-}
+  }
 
-#menu a:hover {
-    border-bottom: 1px solid #7d8c85;
-}
+  #menu a:hover {
+    border-bottom: 1px solid #3B4754;
+  }
 
-#hero-image {
-    height: 400px;
+  .active {
+    border-bottom: 1px solid #3B4754;;
+  }
+
+  /*hero image*/
+
+  #hero-image {
+    height: 600px;
     width: 100%;
-    background: url("../images/hero-imagewebp.webp") no-repeat;
-    background-size: contain;
-}
+    background: url("../images/hero-imagewebp.webp") no-repeat center center;
+    background-size: cover;
+ }
 
-.media {
-    display: inline;
+ #hero-adjustement {
+    padding-top: 75px;
+ }
 
-}
+ #dances {
+    height: 600px;
+ }
+
+ #salsa {
+    padding-top: 30px;
+    width: 33%;
+ }
