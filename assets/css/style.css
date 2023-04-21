@@ -10,6 +10,7 @@
     font-family: Josephin Sans, sans-serif;
     font-weight: 300;
     color:#687E8D;
+    
   }
   
   /*headings and logo*/
@@ -19,6 +20,12 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3B4754;
+    
+  }
+
+  .motto {
+    text-align: center;
+    margin-top: 30px;
   }
 
   #logo {
@@ -70,12 +77,30 @@
  #hero-adjustement {
     padding-top: 75px;
  }
-
- #dances {
+/*
+ #our-studio {
     height: 600px;
  }
-
+ */
+/*
  #salsa {
     padding-top: 30px;
     width: 33%;
+    float:left;
+    
  }
+
+ #tango {
+    padding-top: 30px;
+    width: 33%;
+    float:left;
+    
+ }
+
+ #bachata {
+    padding-top: 30px;
+    width: 33%;
+    float:left;
+    
+ }
+ */
