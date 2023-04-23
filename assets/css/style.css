@@ -104,3 +104,28 @@
     
  }
  */
+
+ /* footer */
+
+ footer {
+    height: 150px;
+ }
+
+ .social-media {
+    text-align: center;
+    background-color:#D55864;
+ }
+
+ /*targeting the child*/
+ .social-media > li {
+    display: inline;
+
+ }
+
+ .social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fbf5f3
+       
+ }
