@@ -72,17 +72,40 @@
     width: 100%;
     background: url("../images/hero-imagewebp.webp") no-repeat center center;
     background-size: cover;
- }
+     }
 
  #hero-adjustement {
     padding-top: 75px;
  }
 
-  
+ .images {
+    display: flex;
+   
+ }
+
+ .images > .img1, .images > .img2, .images > div {
+    width: 33%;
+ }
+
+ .benefits {
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+ }
+ 
+ h3 {
+    text-align: center;
+    text-transform: capitalize;
+ }
+   
+
+ 
  table {
     border-collapse: separate;
     width: 100%;
     text-align: center;
+    padding-bottom: 10px;
+    
  }
 
  th, td {
@@ -114,3 +137,9 @@
     color: #fbf5f3
     
  }
+
+ address {
+    text-align: center;
+    padding-top: 10px;
+ }
+
