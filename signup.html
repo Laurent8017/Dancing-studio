@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,30 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sign up</title>
 </head>
+
 <body>
-    <form action="https://formdump.codeinstitute.net" method="POST">
-        <h2 id="form-title">Book your class today!</h2>
-        <label for="first-name">
-        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-        </label>  
+    <div class=signup-form>
+        <h1>Sign up form</h1>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+            <label for="first-name">
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            </label>
+            <label for="last-name">
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </label>
 
-        <label for="last-name">
-        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
-        </label>
+            <label for="email">
+                <input type="email" id="email" name="email-address" placeholder="Email Adress" required>
+            </label>
+            <label for="dance">
+                <input type="text" id="dance" name="dance" placeholder="Dance" required>
+            </label>
+            <label for="level">
+                <input type="text" id="level" name="level" placeholder="Level" required>
+            </label>
+            <button type="submit">Book your slot!</button>
 
-        <label for="email">
-        <input type="email" id="email" name="email-address" placeholder="Email Adress" required>
-        </label>   
-        
-        <input type="submit" value="Let's Dance!">
-    </form>
-
-       
+        </form>
+    </div>
 </body>
 </html>

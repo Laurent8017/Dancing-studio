@@ -6,166 +6,141 @@
     border: none;
 }
 
-  body { 
+body {
     font-family: Josephin Sans, sans-serif;
     font-weight: 300;
-    color:#687E8D;
-    
-  }
-  
-  /*headings and logo*/
+    color: #687E8D;
+}
 
-  h1, h2 {
+/*headings and logo*/
+h1,
+h2 {
     font-family: Dancing script, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3B4754;
-    
-  }
+}
 
-  .motto {
+.motto {
     text-align: center;
     margin-top: 30px;
-  }
+}
 
-  #logo {
-     float: left;
-     font-size: 500%;
-     margin-left:20px;
-  }
+#logo {
+    float: left;
+    font-size: 500%;
+    margin-left: 20px;
+}
 
-  /*navigation links*/
-
-  #menu {
+/*navigation links with three parts */
+#menu {
     font-size: 200%;
     letter-spacing: 2px;
-  }
+}
 
-  #menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
+}
 
-  }
-
-  #menu li {
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-  }
+}
 
-  #menu a {
+#menu a {
     text-decoration: none;
     color: inherit;
-  }
+}
 
-  #menu a:hover {
+#menu a:hover {
     border-bottom: 1px solid #3B4754;
-  }
+}
 
-  .active {
-    border-bottom: 1px solid #3B4754;;
-  }
-
-  /*hero image*/
-
-  #hero-image {
+.active {
+    border-bottom: 1px solid #3B4754;
+}
+/*hero image to give members a genral idea of what the site is about*/
+#hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-imagewebp.webp") no-repeat center center;
     background-size: cover;
-     }
+}
 
- #hero-adjustement {
+#hero-adjustement {
     padding-top: 75px;
- }
+}
 
- .images {
+.images {
     display: flex;
-   
- }
+}
 
- .images > .img1, .images > .img2, .images > div {
+.images>.img1,
+.images>.img2,
+.images>div {
     width: 33%;
- }
+    margin-left: 5px;
+}
 
- .benefits {
+.benefits {
     text-align: center;
     overflow: hidden;
     display: inline-block;
- }
- 
- h3 {
+}
+
+h3 {
     text-align: center;
     text-transform: capitalize;
- }
+}
 
- p {
+p {
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
- }
-   
-
- 
- table {
+}
+/* Timetable to allow people to check the information for the dance they are intersted in*/
+table {
     border-collapse: separate;
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
-    
- }
+}
 
- th, td {
+th,
+td {
     padding: 8px;
     border-bottom: 1px solid;
     text-align: center;
- }
- 
- /* footer */
-
- footer {
+}
+/* footer with all the icons of social media whee memebers can contact us*/
+footer {
     height: 150px;
- }
+}
 
- .social-media {
+.social-media {
     text-align: center;
-    background-color:#D55864;
- }
+    background-color: #D55864;
+}
 
- /*targeting the child*/
- .social-media > li {
+/*targeting the child*/
+.social-media>li {
     display: inline;
- }
+}
 
- .social-media i {
+.social-media i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #fbf5f3
-    
- }
+}
 
- address {
+address {
     text-align: center;
     padding-top: 10px;
- }
-
-#h2 {
-    text-align: center;
 }
-
-input[type=text],
-input[type=email] {
-    width: 50%;
-    padding: 10px 10px;
-    margin: 15px auto;
-    display: block;
-    border: 2px solid black;
-    border-radius: 10px;
-    background: #D55864;
-    box-sizing: border-box;
-}
-
-::placeholder {
-    color: #d6d4d4;
-    opacity: 0.8;
+/*preparing the registration form to allow prospects/clients to book their slot*/
+.signup-form {
+    background-image:url("/ass")
 }
