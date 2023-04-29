@@ -32,6 +32,13 @@ h2 {
     margin-left: 20px;
 }
 
+.logo-3 {
+    color: #fbf5f3;
+    float: left;
+    font-size: 500%;
+    margin-left: 20px;
+}
+
 /*navigation links with three parts */
 #menu {
     font-size: 200%;
@@ -155,11 +162,19 @@ footer {
     background-color: #d55864;
 }
 
-address {
-    color: #fbf5f3;
+.page-1, page-2 {
+    color: #3B4754;
+}
+
+.page-3 {
+    color:#fbf5f3; 
 }
 
 /* copying the snippet found on the internet for that form because i loved the design.*/
+
+.header-2 {
+    color:#fbf5f3;
+}
 .signup-form {
     position: absolute;
     top: 50%;
