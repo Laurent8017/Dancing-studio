@@ -136,38 +136,53 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #fbf5f3
+    color: #fbf5f3;
 }
 
 address {
     text-align: center;
     padding-top: 10px;
 }
+
 /*preparing the registration form to allow prospects/clients to book their slot*/
 .container {
     background-color: #D55864;
-    background-image: url("../images/signupform.webp");
     background-repeat: no-repeat;
-    background size: cover;
-    padding-top: 400px;
-    padding-bottom: 400px;
+    background-size: cover;
+}
+
+footer {
+    background-color: #d55864;
+}
+
+address {
+    color: #fbf5f3;
 }
 
 /* copying the snippet found on the internet for that form because i loved the design.*/
 .signup-form {
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50% -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 350px;
 }
 
 .signup-form h1 {
     font-size: 40px;
     text-align: center;
-    text-transform:uppercase;
+    text-transform: uppercase;
     margin: 40px;
-    color:#fbf5f3;
+    color: #fbf5f3;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
+main {
+    flex-grow: 1;
 }
