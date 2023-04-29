@@ -61,6 +61,7 @@ h2 {
 .active {
     border-bottom: 1px solid #3B4754;
 }
+
 /*hero image to give members a genral idea of what the site is about*/
 #hero-image {
     height: 600px;
@@ -100,6 +101,7 @@ p {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /* Timetable to allow people to check the information for the dance they are intersted in*/
 table {
     border-collapse: separate;
@@ -114,6 +116,7 @@ td {
     border-bottom: 1px solid;
     text-align: center;
 }
+
 /* footer with all the icons of social media whee memebers can contact us*/
 footer {
     height: 150px;
@@ -141,6 +144,30 @@ address {
     padding-top: 10px;
 }
 /*preparing the registration form to allow prospects/clients to book their slot*/
+.container {
+    background-color: #D55864;
+    background-image: url("../images/signupform.webp");
+    background-repeat: no-repeat;
+    background size: cover;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+/* copying the snippet found on the internet for that form because i loved the design.*/
 .signup-form {
-    background-image:url("/ass")
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% -50%);
+    width: 350px;
+}
+
+.signup-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform:uppercase;
+    margin: 40px;
+    color:#fbf5f3;
+
+
 }
