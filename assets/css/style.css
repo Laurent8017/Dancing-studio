@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Josephin Sans, sans-serif;
+    font-family: "Josephin Sans, sans-serif";
     font-weight: 300;
     color: #687E8D;
 }
@@ -15,7 +15,7 @@ body {
 /*headings and logo*/
 h1,
 h2 {
-    font-family: Dancing script, sans-serif;
+    font-family: "Dancing script, sans-serif";
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3B4754;
@@ -200,4 +200,14 @@ body {
 
 main {
     flex-grow: 1;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+#photos > img {
+    width: 100%;
 }
