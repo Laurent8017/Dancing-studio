@@ -5,13 +5,11 @@
     padding: 0;
     border: none;
 }
-
 body {
     font-family: "Josephin Sans, sans-serif";
     font-weight: 300;
     color: #687E8D;
 }
-
 /*headings and logo*/
 h1,
 h2 {
@@ -20,55 +18,45 @@ h2 {
     letter-spacing: 2px;
     color: #3B4754;
 }
-
-.motto {
-    text-align: center;
-    margin-top: 30px;
-}
-
 #logo {
     float: left;
     font-size: 500%;
     margin-left: 20px;
+    padding-top: 10px;
 }
-
 .logo-3 {
     color: #fbf5f3;
     float: left;
     font-size: 500%;
     margin-left: 20px;
 }
-
+.catchy-frase {
+    text-align: center;
+}
 /*navigation links with three parts */
 #menu {
     font-size: 200%;
     letter-spacing: 2px;
 }
-
 #menu,
 #logo {
     line-height: 75px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     border-bottom: 1px solid #3B4754;
 }
-
 .active {
     border-bottom: 1px solid #3B4754;
 }
-
 /*hero image to give members a genral idea of what the site is about*/
 #hero-image {
     height: 600px;
@@ -76,39 +64,32 @@ h2 {
     background: url("../images/hero-imagewebp.webp") no-repeat center center;
     background-size: cover;
 }
-
 #hero-adjustement {
     padding-top: 75px;
 }
-
 .images {
     display: flex;
 }
-
 .images>.img1,
 .images>.img2,
 .images>div {
     width: 33%;
     margin-left: 5px;
 }
-
 .benefits {
     text-align: center;
     overflow: hidden;
     display: inline-block;
 }
-
 h3 {
     text-align: center;
     text-transform: capitalize;
 }
-
 p {
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 /* Timetable to allow people to check the information for the dance they are intersted in*/
 table {
     border-collapse: separate;
@@ -116,62 +97,50 @@ table {
     text-align: center;
     padding-bottom: 10px;
 }
-
 th,
 td {
     padding: 8px;
     border-bottom: 1px solid;
     text-align: center;
 }
-
 /* footer with all the icons of social media whee memebers can contact us*/
 footer {
     height: 150px;
 }
-
 .social-media {
     text-align: center;
     background-color: #D55864;
 }
-
 /*targeting the child*/
 .social-media>li {
     display: inline;
 }
-
 .social-media i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #fbf5f3;
 }
-
 address {
     text-align: center;
     padding-top: 10px;
 }
-
 /*preparing the registration form to allow prospects/clients to book their slot*/
 .container {
     background-color: #D55864;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 footer {
     background-color: #d55864;
 }
-
 .page-1, page-2 {
     color: #3B4754;
 }
-
 .page-3 {
     color:#fbf5f3; 
 }
-
 /* copying the snippet found on the internet for that form because i loved the design.*/
-
 .header-2 {
     color:#fbf5f3;
 }
@@ -182,7 +151,6 @@ footer {
     transform: translate(-50%, -50%);
     width: 350px;
 }
-
 .signup-form h1 {
     font-size: 40px;
     text-align: center;
@@ -190,231 +158,15 @@ footer {
     margin: 40px;
     color: #fbf5f3;
 }
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-
 main {
     flex-grow: 1;
 }
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-}
-#photos > img {
-    width: 100%;
-}
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: "Josephin Sans, sans-serif";
-    font-weight: 300;
-    color: #687E8D;
-}
-
-/*headings and logo*/
-h1,
-h2 {
-    font-family: "Dancing script, sans-serif";
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #3B4754;
-}
-
-.motto {
-    text-align: center;
-    margin-top: 30px;
-}
-
-#logo {
-    float: left;
-    font-size: 500%;
-    margin-left: 20px;
-}
-
-.logo-3 {
-    color: #fbf5f3;
-    float: left;
-    font-size: 500%;
-    margin-left: 20px;
-}
-
-/*navigation links with three parts */
-#menu {
-    font-size: 200%;
-    letter-spacing: 2px;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3B4754;
-}
-
-.active {
-    border-bottom: 1px solid #3B4754;
-}
-
-/*hero image to give members a genral idea of what the site is about*/
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-imagewebp.webp") no-repeat center center;
-    background-size: cover;
-}
-
-#hero-adjustement {
-    padding-top: 75px;
-}
-
-.images {
-    display: flex;
-}
-
-.images>.img1,
-.images>.img2,
-.images>div {
-    width: 33%;
-    margin-left: 5px;
-}
-
-.benefits {
-    text-align: center;
-    overflow: hidden;
-    display: inline-block;
-}
-
-h3 {
-    text-align: center;
-    text-transform: capitalize;
-}
-
-p {
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/* Timetable to allow people to check the information for the dance they are intersted in*/
-table {
-    border-collapse: separate;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-th,
-td {
-    padding: 8px;
-    border-bottom: 1px solid;
-    text-align: center;
-}
-
-/* footer with all the icons of social media whee memebers can contact us*/
-footer {
-    height: 150px;
-}
-
-.social-media {
-    text-align: center;
-    background-color: #D55864;
-}
-
-/*targeting the child*/
-.social-media>li {
-    display: inline;
-}
-
-.social-media i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #fbf5f3;
-}
-
-address {
-    text-align: center;
-    padding-top: 10px;
-}
-
-/*preparing the registration form to allow prospects/clients to book their slot*/
-.container {
-    background-color: #D55864;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer {
-    background-color: #d55864;
-}
-
-.page-1, page-2 {
-    color: #3B4754;
-}
-
-.page-3 {
-    color:#fbf5f3; 
-}
-
-/* copying the snippet found on the internet for that form because i loved the design.*/
-
-.header-2 {
-    color:#fbf5f3;
-}
-.signup-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-}
-
-.signup-form h1 {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px;
-    color: #fbf5f3;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
-main {
-    flex-grow: 1;
-}
-
 #photos {
     clear: both;
     line-height: 0;
