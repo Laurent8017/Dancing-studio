@@ -179,3 +179,16 @@ main {
     object-fit: cover;
     height: 33%;
 }
+/*media- queries*/
+/*for larger screen to medium screen sizes from 1202px wide and down*/
+@media screen and (max-width: 1202px) {
+         #menu li {float:left;}
+         
+     
+}
+
+@media screen and (max-width: 1172px) {
+    #menu li {float: left;
+
+    }
+}
