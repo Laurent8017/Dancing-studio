@@ -10,5 +10,12 @@ Users can find the studio on social media and at the physical address. Then, the
 
 # Features
 
++ Header
+
+  - The header shows the name of the website on the left hand side.
+  -  The menu is composed of three links: Home, Gallery and Sign up, on the right hand side, which makes the navigation easier for visitors and bring them to the other pages of the website when clicked.
+  - It uses a shade of grey with white contrast to make the visual standing.
+  -The
+
 
 
