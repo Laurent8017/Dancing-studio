@@ -5,190 +5,262 @@
     padding: 0;
     border: none;
 }
-body {
-    font-family: "Josephin Sans, sans-serif";
-    font-weight: 300;
-    color: #687E8D;
+
+p {
+    font-family: "Josefin Sans", serif;
 }
-/*headings and logo*/
-h1,
-h2 {
-    font-family: "Dancing script, sans-serif";
+
+li {
+    font-family: "Josefin Sans", serif;
+}
+
+#logo {
+    font-size: 30px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #3B4754;
-}
-#logo {
-    float: left;
-    font-size: 500%;
-    margin-left: 20px;
-    padding-top: 10px;
-}
-.logo-3 {
-    color: #fbf5f3;
-    float: left;
-    font-size: 500%;
-    margin-left: 20px;
-}
-.catchy-frase {
-    text-align: center;
-}
-/*navigation links with three parts */
-#menu {
-    font-size: 200%;
-    letter-spacing: 2px;
-}
-#menu,
-#logo {
-    line-height: 75px;
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-#menu a {
     text-decoration: none;
-    color: inherit;
+    color: black;
+    font-family: "Dancing script", serif;
 }
-#menu a:hover {
+
+#gallery-images-container {
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#gallery-images-container img {
+    height: 300px;
+    width: 400px;
+}
+
+.left-gallery {
+    width: 50%;
+}
+
+.right-gallery {
+    width: 50%;
+}
+
+.menu-home, .menu-signup, .menu-gallery {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: "Dancing script", serif;
+}
+
+.menu-home:hover, .menu-signup:hover, .menu-gallery:hover {
     border-bottom: 1px solid #3B4754;
 }
+
 .active {
     border-bottom: 1px solid #3B4754;
 }
-/*hero image to give members a genral idea of what the site is about*/
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-imagewebp.webp") no-repeat center center;
-    background-size: cover;
+
+.container {
+    text-align: justify;
+    margin-left: 6%;
+    margin-right: 6%;
 }
-#hero-adjustement {
-    padding-top: 75px;
-}
-.images {
+
+.inner-container {
     display: flex;
 }
-.images>.img1,
-.images>.img2,
-.images>div {
-    width: 33%;
-    margin-left: 5px;
+
+.inner-container img {
+    max-width: 33%;
 }
-.benefits {
-    text-align: center;
-    overflow: hidden;
-    display: inline-block;
+
+#menu {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
 }
-h3 {
-    text-align: center;
+
+.about-studio {
     text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-p {
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 10px;
+
+.cover {
+    width: 100%;
 }
-/* Timetable to allow people to check the information for the dance they are intersted in*/
+
+.agenda-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.text-content {
+    padding: 2%;
+    margin: auto;
+}
+
+.text-content li {
+    list-style-type: none;
+}
+
 table {
     border-collapse: separate;
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
 }
+
 th,
 td {
     padding: 8px;
     border-bottom: 1px solid;
     text-align: center;
 }
-/* footer with all the icons of social media whee memebers can contact us*/
-footer {
-    height: 150px;
+
+.agenda-table {
+    text-align: center;
+    margin: auto;
 }
+
+.agenda-mobile {
+    display: none;
+}
+
 .social-media {
     text-align: center;
     background-color: #D55864;
 }
-/*targeting the child*/
-.social-media>li {
+
+.signup-form {
+    position: relative;
+}
+
+.social-media > li {
     display: inline;
 }
+
 .social-media i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #fbf5f3;
 }
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.signup-form label {
+    padding: 2%;
+    font-weight: bold;
+}
+
+.registration-title {
+    text-align: center;
+}
+
+.signup-form input {
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    padding: 1%;
+}
+
+.signup-form-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#submit-btn {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: #D55864;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 address {
     text-align: center;
     padding-top: 10px;
-}
-/*preparing the registration form to allow prospects/clients to book their slot*/
-.container {
-    background-color: #D55864;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-footer {
-    background-color: #d55864;
-}
-.page-1, page-2 {
-    color: #3B4754;
-}
-.page-3 {
-    color:#fbf5f3; 
-}
-/* copying the snippet found on the internet for that form because i loved the design.*/
-.header-2 {
-    color:#fbf5f3;
-}
-.signup-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-}
-.signup-form h1 {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px;
-    color: #fbf5f3;
-}
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-main {
-    flex-grow: 1;
-}
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-    margin-bottom: -10px;
-}
-#photos > img {
-    width: 100%;
-    object-fit: cover;
-    height: 33%;
-}
-/*media- queries*/
-/*for larger screen to medium screen sizes from 1202px wide and down*/
-@media screen and (max-width: 1202px) {
-         #menu li {float:left;}
-         
-     
+    margin-bottom: 2%;
 }
 
-@media screen and (max-width: 1172px) {
-    #menu li {float: left;
+/*TABLET*/
+@media screen and (max-width: 1024px) {
+    .inner-container {
+        display: block;
+        text-align: center;
+    }
 
+    .inner-container img {
+        max-width: 100%;
+    }
+
+    .agenda-table {
+        display: none;
+    }
+
+    .agenda-mobile {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .day {
+        padding-bottom: 15%;
+    }
+
+    .day-name {
+        font-weight: bold;
+    }
+
+    #gallery-images-container {
+        display: block;
+    }
+
+    .left-gallery {
+        width: 100%;
+    }
+
+    .right-gallery {
+        width: 100%;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 480px) {
+    #gallery-images-container img {
+        height: 150px;
+        width: 200px;
+    }
+
+    #menu {
+        flex-direction: column;
+    }
+
+    .menu-home, .menu-gallery, .menu-signup {
+        padding: 2%;
+        font-size: 15px;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+
+    .agenda-mobile {
+        display: block;
+        text-align: center;
+        margin: auto;
     }
 }

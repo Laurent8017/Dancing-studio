@@ -11,69 +11,65 @@
     <title>Dancing Academy</title>
 </head>
 <body>
-    <a href="index.html"></a>
-    <header>
-        <h1 id="logo">Dancing Studio</h1><br>
-        <nav>
-            <!--putting in place a classic menu on the right to make it easier for prospects to navigate on the page-->
-            <ul id="menu">
-                <li>
-                    <a href="signup.html">Sign up</a>
-                </li>
+<header>
+    <nav>
+        <!--putting in place a classic menu on the right to make it easier for prospects to navigate on the page-->
+        <div id="menu">
+            <h1 id="logo">Dancing Studio</h1>
+            <a href="index.html" class="active menu-home">Home</a>
+            <a href="gallery.html" class="menu-gallery">Gallery</a>
+            <a href="signup.html" class="menu-signup">Sign up</a>
+        </div>
+    </nav>
+</header>
 
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div id="hero-adjustement">
-        <div id="hero-image">
-        </div><br>
-    </div>
-    <div class="images">
-        <img src="/assets/images/salsadancing.webp" alt="a young couple dancing salsa" class="img1">
-        <div>
-            <h3>About our studio</h3><br>
-            <!--some text to give a general message of what the site is about and balanced with the two images-->
+<div class="cover">
+    <img class="cover" src="/assets/images/hero-imagewebp.webp" alt="a young couple dancing salsa">
+</div>
+
+<div class="container">
+    <h3 class="about-studio">About our studio</h3>
+    <div class="inner-container">
+        <img class="image-left" src="/assets/images/salsadancing.webp" alt="a young couple dancing salsa">
+        <div class="text-content">
             <p>Our studio was founded more than a decade by a few dancing lovers.
                 Throughout the years we have become one of the most well-known studio in Ireland.
-                This succes lies in several pillars that are key for us:</p><br>
-
+                This succes lies in several pillars that are key for us:
+            </p>
             <p>Quality: All our teachers are qualified and have a long experience of dancing. Some of them took part in
-                international competition.</p><br>
-
+                international competition.
+            </p>
             <p>Dancing experience: As practise makes perfect, you will be dancing from day one and step by step you will
-                master the basics of the dance you chose.</p><br>
-
-            <p>Fun environment: Since the beginning, you will enjoy dancing. Our methodology is quite unique. Indeed, at
+                master the basics of the dance you chose.
+            </p>
+            <p>Fun environment: Since the beginning, you will enjoy dancing. Our methodology is quite unique. Indeed,
+                at
                 some point you will be playing games. This is a way for us to digest the technique and improving your
-                learning experience.</p><br>
-
+                learning experience.
+            </p>
             <p>On the other hand, dancing is an art but also a wonderful activity which will bring benefits to your
-                life:</p><br>
-
-            <p>- Your coordination will improve.
-            <p><br>
-            <p>- A better self-confidence.</p><br>
-            <p>- Meeting new friends.</p><br>
-            <p>- Losing calories in a funny way.</p><br>
-            <p>- improving your stamina</p><br>
-
-            <p>Now, it is your turn! Come to visit us and ask our lovely staff about our different dances.</p><br>
-
-            <p>You will definitely find something that will catch your interest and note as well that the first class is
-                free so that you can make your decision afterwards</p><br>
-
-            <p>So, what are you waiting for? Let's dance!</p>
+                life:
+            </p>
+            <ul>
+                <li>- Your coordination will improve.</li>
+                <li>- A better self-confidence.</li>
+                <li>- Meeting new friends.</li>
+                <li>- Losing calories in a funny way.</li>
+                <li>- improving your stamina</li>
+            </ul>
+            <p>Now, it is your turn! Come to visit us and ask our lovely staff about our different dances.
+                You will definitely find something that will catch your interest and note as well that the first class
+                is
+                free so that you can make your decision afterwards
+                So, what are you waiting for? Let's dance!
+            </p>
         </div>
-        <img src="/assets/images/bachata.webp" alt=" a young couple dancing bachata" class="img2">
+        <img class="image-right" src="/assets/images/bachata.webp" alt="a young couple dancing salsa">
     </div>
-    <div>
-        <table class="content-table">
+    <!--some text to give a general message of what the site is about and balanced with the two images-->
+
+    <div class="agenda-container">
+        <table class="agenda-table">
             <tr>
                 <th>Hours</th>
                 <th>Monday</th>
@@ -87,7 +83,7 @@
             <tr>
                 <th>5.00pm - 6.00pm</th>
                 <td>Salsa - Beginner</td>
-                <td>Tango - Beginner </td>
+                <td>Tango - Beginner</td>
                 <td>Salsa - Beginner</td>
                 <td>Tango - Beginner</td>
                 <td>Teacher Training</td>
@@ -95,7 +91,7 @@
                 <td>Closed</td>
             </tr>
             <tr>
-                <th>6.00pm to 7.00pm</th>
+                <th>6.00pm - 7.00pm</th>
                 <td>Salsa - Intermediate</td>
                 <td>Tango - Intermediate</td>
                 <td>Salsa - Intermediate</td>
@@ -106,17 +102,17 @@
             </tr>
 
             <tr>
-                <th>7.00pm to 8.00pm</th>
+                <th>7.00pm - 8.00pm</th>
                 <td>Teacher training</td>
                 <td>Teacher Training</td>
-                <td>Latin Party</td>
+                <td>Teacher Training</td>
                 <td>Tango - Advanced</td>
                 <td>Latin Party</td>
                 <td>Latin Party</td>
                 <td>Closed</td>
             </tr>
             <tr>
-                <th>8.00pm to 9.00pm</th>
+                <th>8.00pm - 9.00pm</th>
                 <td>Bachata - Beginner</td>
                 <td>Bachata - Advanced</td>
                 <td>Bachata - Beginner</td>
@@ -126,7 +122,7 @@
                 <td>Closed</td>
             </tr>
             <tr>
-                <th>9.00pm to 10.00pm</th>
+                <th>9.00pm - 10.00pm</th>
                 <td>Bachata - Intermediate</td>
                 <td>Private Lessons</td>
                 <td>Bachata - Intermediate</td>
@@ -137,39 +133,129 @@
             </tr>
             <!--the idea of putting a timetable is to make visible straightaway the availability of dances and hours-->
         </table>
-    </div>
-    <footer>
-        <div class="footer">
-            <ul class="social-media">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Facebook (opens in a new tab)"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Twitter (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Youtube (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Instagram (opens in a new tab)"><i
-                            class="fa-brands fa-square-instagram"></i></a>
-                </li>
-            </ul>
+
+        <div class="agenda-mobile">
+            <div class="left-agenda">
+                <div class="day">
+                    <p class="day-name">Monday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+                <div class="day">
+                    <p class="day-name">Tuesday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+                <div class="day">
+                    <p class="day-name">Wednesday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+            </div>
+            <div class="right-agenda">
+                <div class="day">
+                    <p class="day-name">Thursday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+                <div class="day">
+                    <p class="day-name">Friday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+                <div class="day">
+                    <p class="day-name">Saturday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+            </div>
+            <div>
+                <div class="day">
+                    <p class="day-name">Sunday</p>
+                    <p>5.00pm - 6.00pm</p>
+                    <p>Salsa - Beginner</p>
+                    <p>6.00pm to 7.00pm</p>
+                    <p>7.00pm to 8.00pm</p>
+                    <p>Teacher training</p>
+                    <p>8.00pm to 9.00pm</p>
+                    <p>9.00pm to 10.00pm</p>
+                    <p>Bachata - Intermediate</p>
+                </div>
+            </div>
         </div>
-        <address class="page-1">
-            Come and visit our studio at:<br><br>
-            17 Fake street, 1st floor<br>
-            D09 K0T5 Dublin<br>
-            Ireland
-        </address>
-        <!-- putting the above address element so that prospects know where the studio is-->
-    </footer>
-    <script src="https://kit.fontawesome.com/92c45db800.js" crossorigin="anonymous"></script>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <ul class="social-media">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Facebook (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Twitter (opens in a new tab)"><i
+                        class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Youtube (opens in a new tab)"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Instagram (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+    <address class="page-1">
+        Come and visit our studio at:<br><br>
+        17 Fake street, 1st floor<br>
+        D09 K0T5 Dublin<br>
+        Ireland
+    </address>
+    <!-- putting the above address element so that prospects know where the studio is-->
+</footer>
+<script src="https://kit.fontawesome.com/92c45db800.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
+

@@ -9,84 +9,69 @@
     <title>Sign up</title>
 </head>
 
-<body class="container">
-    <header class="header-2">
-        <a href="index.html"></a>
-    <h1 class="logo-3">Dancing Studio</h1><br>
-        <nav>
-            <!--putting in place a classic menu on the right to make it easier for prospects to navigate on the page-->
-            <ul id="menu">
-                <li>
-                    <a href="signup.html">Sign up</a>
-                </li>
-
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+<body>
+<header>
+    <nav>
+        <!--putting in place a classic menu on the right to make it easier for prospects to navigate on the page-->
+        <div id="menu">
+            <h2 id="logo">Dancing Studio</h2>
+            <a href="index.html" class="menu-home">Home</a>
+            <a href="gallery.html" class="menu-gallery">Gallery</a>
+            <a href="signup.html" class="active menu-signup">Sign up</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="signup-form-container">
+        <h1 class="registration-title">Registration</h1>
         <div class=signup-form>
-            <h1>Registration:</h1>
             <form action="https://formdump.codeinstitute.net" method="POST">
-                <label for="first-name">
-                    <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-                </label>
-                <label for="last-name">
-                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
-                </label>
-
-                <label for="email">
-                    <input type="email" id="email" name="email-address" placeholder="Email" required>
-                </label>
-                <label for="dance">
-                    <input type="text" id="dance" name="dance" placeholder="Dance" required>
-                </label>
-                <label for="level">
-                    <input type="text" id="level" name="level" placeholder="Level" required>
-                </label>
-                <button type="submit">Book your slot!</button>
-
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                <label for="last-name">Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email-address" placeholder="Email" required>
+                <label for="dance">Dance</label>
+                <input type="text" id="dance" name="dance" placeholder="Dance" required>
+                <label for="level">Level</label>
+                <input type="text" id="level" name="level" placeholder="Level" required>
+                <button type="submit" id="submit-btn">Book your slot!</button>
             </form>
-
         </div>
-    </main>
-    <footer>
-        <div class="footer">
-            <ul class="social-media">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Facebook (opens in a new tab)"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Twitter (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Youtube (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit us on Instagram (opens in a new tab)"><i
-                            class="fa-brands fa-square-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
-        <address class="page-3">
-            Come and visit our studio at:<br><br>
-            17 Fake street, 1st floor<br>
-            D09 K0T5 Dublin<br>
-            Ireland
-        </address>
-        <!-- putting the above address element so that prospects know where the studio is-->
-    </footer>
-    <script src="https://kit.fontawesome.com/92c45db800.js" crossorigin="anonymous"></script>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <ul class="social-media">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Facebook (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Twitter (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Youtube (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                   aria-label="Visit us on Instagram (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+    <address class="page-3">
+        Come and visit our studio at:<br><br>
+        17 Fake street, 1st floor<br>
+        D09 K0T5 Dublin<br>
+        Ireland
+    </address>
+    <!-- putting the above address element so that prospects know where the studio is-->
+</footer>
+<script src="https://kit.fontawesome.com/92c45db800.js" crossorigin="anonymous"></script>
 </body>
 </html>
