@@ -6,7 +6,7 @@ There are different styles of dances organized by levels to make the most of the
 
 Users can find the studio on social media and at the physical address. Then, they can also leave their details on the registration form and the type of dances and levels they are interested in.
 
-<!--putting screenshot of images later, the core documentation at the moment-->
+![Responsive mockup](./DOCS/responsive-several-screen.png)
 
 # HOME PAGE
 
@@ -84,6 +84,7 @@ And a call to action button to finalise the registration
 
     - To my family, friends and fiancée for their support when i needed it the most.
        
+
 
 
 
